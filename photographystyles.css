@@ -1,0 +1,324 @@
+body.homepage {
+	background-image: url("images/background1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+    background-attachment: fixed;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+body.categories {
+	background-color: white;
+   width: 1100px;
+	height: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+body.gallery {
+	background-color: white;
+    width: 1100px;
+	height: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+body.artists {
+	background-color: white;
+   width: 1100px;
+	height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+body.contact {
+	background-color: white;
+   width: 1100px;
+	height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+#wrapperonepage {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 1100px;
+	height: 600px;
+}
+
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 1100px;
+	height: auto;
+}
+
+.logomaroon  {
+	width: 8%;
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+#topnav  {
+	width: 100%;
+	padding-bottom: 0px;
+	position: absolute;
+	left: 90px;
+	top: 50px;
+	text-align: left;
+}
+
+#topnavlist  {
+	margin: 0px;
+	padding: 0x;
+	border-width: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+.navitem {
+	display: inline;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: left;
+	padding-right:25px;
+	padding-left: 0px;
+}
+
+.navitem a:link  {
+	text-decoration: none;
+  	color: #8E365E;
+}
+
+.navitem a:visited  {
+	text-decoration: none;
+	color: #8E365E;
+}
+
+.navitem a:hover  {
+	text-decoration: none;
+	color: #d1aebe;
+}
+
+.navitem a:active  {
+	text-decoration: none;
+	color: #d1aebe;
+}
+
+.line-separator{
+	height: 2px;
+	background:#8E365E;
+	margin-right: auto;
+	margin-left: auto;
+	left: 40px;
+	position: absolute;
+	width: 875px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+#inspirelist1  {
+	display: inline;
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	width:135px;
+	border-width: 0px;
+	border-collapse: collapse;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+#inspirelist2  {
+	display: block;
+	position: absolute;
+	top: 300px;
+	right: 200px;
+	width:135px;
+	border-width: 0px;
+	border-collapse: collapse;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+h1  {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	position: relative;
+	color: #8E365E;
+	font-weight: lighter;
+}
+
+h2  {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0px
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	color: #8E365E;
+	font-weight: lighter;
+}
+
+h3  {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 20px;
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	position: relative;
+	color: #8E365E;
+	font-weight: lighter;
+}
+
+h1.solid  {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 40px;
+	font-weight: lighter;
+	top: 300px;
+	left: 940px;
+	width: 200px;
+	position: relative;
+	text-align: center;
+	color: #8E365E;
+	border-style: solid;
+	border-color: #8E365E;
+}
+
+p.solid  {
+	color: #8E365E;
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	margin: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-color: #8E365E;
+}
+
+a  {
+	text-decoration: none;
+	color: #8E365E;
+}
+
+#quotes  {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 400px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#imagetable  {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 20px;
+	width: 900px;
+	height: 1000px;
+}
+
+
+div.img {
+    float: center;
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+	margin-top: 20px;
+}
+
+div.img: hover {
+    border: 1px solid #8E365E;
+}
+
+div.img img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#imagelist {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 900px;
+	height: auto;
+}
+
+#images  {
+	float: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+	margin-top: 20px;
+}
+
+#artist  {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 900px;
+	height: 300px;
+}
+
+p  {
+	font-size: medium;
+	color: #8E365E;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#selenapic  {
+	float: left;
+	width: 30%;
+	height: auto;
+	margin-top:0px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+#form  {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #8E365E;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 100%; 
+}
+
+td .forminfo{
+	vertical-align: middle;
+	font-size: 16px;
+	height: 30px;
+	font-color: #8E365E;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+

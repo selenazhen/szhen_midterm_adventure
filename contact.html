@@ -1,0 +1,145 @@
+<html>
+
+<head>
+	<title>Contact</title>
+	<link href="photographystyles.css"
+		rel="stylesheet" type="text/css" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+</head>
+
+<body class="contact">
+
+	<div id="wrapper">
+
+	<a href="index.html">
+	<img src="images/logomaroon.png" class="logomaroon"></a>
+
+	<div id="topnav">
+		<ul id="topnavlist">
+			<li class="navitem">
+				<a href="index.html"> HOME </a></li>
+			<li class="navitem">
+				<a href="gallery.html"> GALLERY </a></li>
+			<li class="navitem">
+				<a href="artists.html"> ARTISTS </a></li>
+			<li class="navitem">
+				<a href="contact.html"> CONTACT </a></li>
+		</ul>
+
+		<div class="line-separator"></div>
+	</div>
+
+	<div id="imagelist">
+		<h2> CONTACT US </h2>
+	
+	<script>function validate()
+	    {
+	    if (document.contact.firstname.value.length < 2 || document.contact.lastname.value.length < 2 )
+
+	    {
+	    alert("Please enter your whole name.");
+	    return false;
+	    }
+
+	    if (document.contact.phone.value.length < 10 )
+	    {
+
+	    alert("Please enter your whole phone number.");
+	    return false;
+	    }
+
+	    return true;
+	    }
+
+	</script>
+
+
+<table width="700" id="form" alignt="center">
+    <form name="contact" action ="contact_completed.html" method = "post" onSubmit = "return validate();">
+
+        <tr>
+        <td height="50" colspan="2" align="left" valign="top" class="forminfo"><b>Please provide the following information:</b></td>
+        </tr>
+
+        <tr>
+        <td width="30%" class="forminfo">First Name:</td>
+        <td width="70%" class="forminfo"><input type="text" size="30" name="firstname"></td>
+        </tr>
+
+        <tr>
+        <td width="30%" class="forminfo">Last Name:</td>
+        <td width="70%" class="forminfo"><input type="text" size="30" name="lastname"></td>
+        </tr>
+
+        <tr>
+        <td width="30%" class="forminfo">Email:</td>
+        <td width="70%" class="forminfo"><input type="text" size="30" name="email"></td>
+        </tr>
+
+        <tr>
+        <td width="30%" class="forminfo">Phone:</td>
+        <td width="70%" class="forminfo"><input type="text" size="30" name="phone" maxlength="10"></td>
+        </tr>
+
+        <tr>
+        <td height="84" id="topalign" class="forminfo"><br>Favorite Adventures:</td>
+        <td align = "left" valign ="middle" class="forminfo" name="sketchbook">
+        <br/>
+        <input type="checkbox" name = "World" value="World"/>World<br/>
+        <input type="checkbox" name = "Food" value="Food"/>Food<br/>
+        <input type="checkbox" name = "Animals" value="Animals">Animals<br/>
+        <input type="checkbox" name = "Urban" value="Urban">Urban<br/>
+        <input type="checkbox" name = "Nature" value="Nature">Nature<br/>
+        <input type="checkbox" name = "People" value="People">People<br/>
+        <input type="checkbox" name = "Other" value="Other">Other<br/>
+        </td>
+        </tr>
+
+        <tr>
+        <td height="63" id = "topalign" class="forminfo"><br/>What do you prefer to take photos on?</td>
+        <td align = "left" valign = "middle" class="forminfo"><br/>
+        <input type="radio" name="camerause" value="method" />DSLR Camera <br/>
+        <input type="radio" name="camerause" value="method" />Phone<br/>
+        </td>
+        </tr>
+
+        <tr>
+        <td class="forminfo"><br/>How did you become introduced to the world of Photography?</td>
+        <td class="forminfo"><br/>
+        <select name ="referral_code" size="4" multiple="3">
+        <option value="NULL">Please select an option</option>
+        <option value="FAMILY">Family</option>
+        <option value="FRIENDS">Friends</option>
+        <option value="CAMERA STORE">Art Store</option>
+        <option value="GOOGLE">Google</option>
+        <option value="OTHER">Other</option>
+        <option value="NONE">None</option>
+        </select>
+        </td>
+        </tr>
+
+        <tr>
+        <td height="30" colspan="2" valign="top" class="forminfo">Comments</td>
+        </tr>
+
+        <tr>
+        <td height="100" colspan="2" align = "left" valign="top" class="forminfo">
+        <textarea id="comments" wrap="hard" rows="5" cols="45" align = "left"></textarea></td>
+        </tr>
+
+        <tr>
+        <td height="26" colspan="2" valign="top" class="forminfo">
+        <input type="submit" value="Submit" name = "submit"></td>
+        </tr>
+
+        </form>
+        </table>
+
+</div>
+
+</body>
+
+</html>
+
+
+<!--960x810-->
